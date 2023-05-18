@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        *{margin: 0;}
+        .logo{width:100%; display: flex; align-items: center; justify-content: center;}
+        .logo img{max-width: 45px; padding: 1.5rem 0;}
+        .logo .white{color: #fff; font-size: 1.5rem; font-weight: 600;text-align: center;}
+
+        hr{clear: both; width: 85%; margin: auto;}
+
+        .header{color: #6cb1d8; font-size: 1.5rem; text-align: center; margin: 2rem 0;}
+
+        .content{background-color: #fff; padding:3rem 2rem;  font-size: 1.1rem;}
+        .content-imgs{padding: auto 2rem; display: flex; align-items: center;justify-content: center;margin:1rem 0;}
+        .content-imgs img{max-width: 220px;}
+
+        .rules-header h4{color: #fff; font-size: 1.7rem; font-weight: 600; text-align: center;}
+        .rules-boxes{display: flex;align-items: center;justify-content: space-around;padding: 2rem;text-align: left;}
+        .rules-boxes .Dos, .Donts{background-color: #fff;padding: 2rem 1rem;border-radius: .5rem;margin-left: 1rem;}
+        .rules-boxes .Dos header{color: #62cc62; font-size: 1.8rem; font-weight: 600; text-align: center; margin-bottom: 1rem;}
+        .rules-boxes .Donts header{color: #f33a21; font-size: 1.8rem; font-weight: 600; text-align: center;margin-bottom: 1rem;}
+        .rules-boxes .Dos img{max-width: 25px; margin-right: .5rem;}
+        .rules-boxes .Donts img{max-width: 20px; margin-right: .5rem;}
+        .rules-boxes .Dos p{display: flex; align-items: center; justify-content: space-around; font-size: .8rem;}
+        .rules-boxes .Donts p{display: flex; align-items: center; justify-content: space-around; font-size: .8rem;}
+
+        .gratitude{background-color: #fff; text-align: center;padding: 2rem; font-size: 1.1rem; font-weight: 400;}
+        .gratitude strong{color: #6cb1d8; font-size: 1.5rem; font-weight: 600;}
+        .gratitude a{text-decoration: none; color: #6cb1d8}
+
+        .footer{text-align: center; color: #f0f0f0; padding: 3rem 0; line-height: 1.5;}
+        .footer a{text-decoration: none; color: #f5f5f5;}
+
+        @media (max-width: 589px){
+            .content-imgs{padding: auto .5rem;}
+            .content-imgs img{max-width: 210px;}
+
+            .rules-boxes{display: flex; flex-direction: column;}
+            .rules-boxes .Dos{width: 70% !important; margin-left: 0;margin-bottom: 1rem;}
+            .rules-boxes .Donts{width: 70% !important; margin-left: 0; margin-top: 1rem;}
+        }
+        @media (max-width: 420px){
+            .content-imgs{padding: auto .5rem;}
+            .content-imgs img{max-width: 190px;}
+        }
+        @media (max-width: 390px){
+            .content-imgs{padding: auto .5rem;}
+            .content-imgs img{max-width: 170px;}
+        }
+    </style>
+</head>
+<body>
+    <table class="wrapper"  style="max-width: 650px; margin: 0 auto; padding: 0; background-color: #093363;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <tr>
+            <td>
+
+                                 <!------- logo --------->
+
+                <table class="logo" align="center" cellpadding="0" cellspacing="10px" style="padding: 0;">
+                    <tr>
+                        <td align="center"><span><img src="building-icon.PNG" alt="logo"></span></td>
+                        <td  class="white" align="center">ELITE FINANCIAL</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                                 <!------- header --------->
+
+                <table class="header" width="100%">
+                    <tr>
+                        <td><h4>Reopening Our Offices: <br> Interim Guidance For Employees</h4></td>
+                    </tr>
+                </table>
+
+                                 <!------- content --------->
+
+                <table class="content" width="100%">
+                    <tr>
+                        <td>Dear team, 
+                            <br> <br>
+                            In light of positive developments over the last few weeks, Elite Financial is reopening its offices, However, we will enforce protocols that uphold the safety and health of our team and clients in mind.
+                            <br> <br>
+                            We will provide detailed protocols in the coming days, However, the below dhart outlines expectations for returning and being in the office day after day. Please take note of these expectations prior to your return to the office.</td>
+                    </tr>
+                </table>
+
+                                 <!------- content-images --------->
+
+                <table class="content-imgs" align="center"cellpadding="2px" width="100%">
+                    <tr>
+                        <td><img src="offfice-img1.PNG" alt="office-img1"></td>
+                        <td><img src="office-img2.PNG" alt="office-img2"></td>
+                    </tr>
+                </table>
+
+                                <!------- rules-header --------->
+
+                <table class="rules-header" align="center" width="100%">
+                    <tr>
+                        <td><h4>The Do's and Don'ts <br> When Returning To Work</h4></td>
+                    </tr>
+                </table>
+
+                                 <!------- rules-boxes --------->
+
+                <div class="rules-boxes" width="100%" align="center" cellspacing="30px">
+                         <div class="Dos" width="47.5%">
+                            <header>The Do's</header>
+                              <p><img src="Do.png" alt="do">Do maitain good personal hygiene in or outside office.</p> <br>
+                              <p><img src="Do.png" alt="do">Do wash your hands with soap and water.</p> <br>
+                              <p><img src="Do.png" alt="do">Do cover your mouth while coughing and yawning.</p> <br>
+                              <p><img src="Do.png" alt="do">Do clean your hands with alcohol-based hand sanitizer.</p> <br>
+                              <p><img src="Do.png" alt="do">Do see a doctor if you are feeling sick or unwell.</p>
+                        </div>
+                        <div class="Donts" width="47.5%">
+                            <header>The Don'ts</header>
+                              <p><img src="Don't.png" alt="don't">Don't touch coworker's belongings if not necessary.</p> <br>
+                              <p><img src="Don't.png" alt="don't">Don't forget to wash your hands when switching tasks.</p> <br>
+                              <p><img src="Don't.png" alt="don't">Don't have contact with live animals or raw meat.</p> <br>
+                              <p><img src="Don't.png" alt="don't">Don't go to work if you are having symptoms such as fever or cough.</p> <br>
+                              <p><img src="Don't.png" alt="don't">Don't touch high traffic areas with your hands.</p>
+                        </div>
+                </div>
+
+                                    <!------- gratitude --------->
+
+                <table class="gratitude" width="100%" align="center">
+                    <tr>
+                        <td>
+                            Thank you everyone for your continued hardwork and  <br> patience through these strange and difficult times. <br> <br>
+
+                            <strong>From all of us at Elite Financial, stay safe!</strong> <br> <br>
+
+                            For further information, call Elite Financial Corporation's 24/7 <br>
+                            helpline number <a href="#">1+ 234-567-8900</a> or email <a href="#">hr@elitefinance.com</a>
+                        </td>
+                    </tr>
+                </table>
+
+                                     <!------- footer --------->
+
+                <table class="footer" width="100%" align="center">
+                    <tr>
+                        <td>
+                            123 Woodpecker Street, Oakwood AZ4656<br>
+                            Elite Financial &copy;2023 + <a href="#">www.elitefinancial.com</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
